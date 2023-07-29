@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: rgb(118, 218, 118);
+
+}
+
+.navbar-brand:hover{
+    color: black;
+
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Lato', sans-serif;
+    border: 2px solid green;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+
+.main{
+    background: url(bg-img-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.H{
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgb(232, 248, 21);
+}
+
+.B{
+  height: 45px;
+  width:35%;
+  border: none;
+  outline:none;
+  background-color: rgb(56, 179, 85);
+  color: white;
+  font-weight:700;
+  border-radius: 60px;
+}
+
+
+
+.B{
+    background-color: rgb(56, 179, 85);
+    transition: 0.5s;
+}
+
+h1{
+    font-weight: 800;
+}
+
+.card:hover{
+    -webkit-box-shadow: -2px -1px 27px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 27px -8px rgba(0,0,0,0.75);
+box-shadow: -2px -1px 27px -8px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+
+.apple{
+    background: url(109943760-closeup-of-beautiful-little-girl-child-kid-portrait-eating-green-healthy-apple-while-looking-outside.webp);
+    background-size: cover;
+    height: 125vh;
+    width: 100%;
+}
+
+.font-weight-bold {
+    color:rgb(122, 188, 122);
+}
+
+.h6{
+    color: rgb(122, 188, 122);
+}
+
+.news{
+    background-color: black;
+    color: white;
+}
+
+.B1{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+
+.news input{
+    height: 45px;
+    width: 50%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+.news::placeholder{
+    color: white;  
+}
+
+
+.news p{
+    margin: 0;
+}
+
+
+.fab{
+
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
