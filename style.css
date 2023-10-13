@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .navbar-brand{
     font-size: 2rem;
     color: black;
@@ -64,6 +63,8 @@
     width: 100%;
 }
 
+
+
 .H{
   font-size: 4rem;
   font-weight: 700;
@@ -76,11 +77,14 @@
   border: none;
   outline:none;
   background-color: rgb(56, 179, 85);
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight:700;
   border-radius: 60px;
 }
 
+.nav-link:hover{
+    background-color: #8d8282c4;
+}
 
 
 .B{
@@ -157,4 +161,12 @@ transition: 0.5s;
     font-size: 2.5rem;
     cursor: pointer;
     padding-right: 5px;
+}
+
+.fab:hover{
+    background: rgba(255, 255, 255, 0.173);
+}
+
+.row-1{
+margin-left: 300px;
 }
